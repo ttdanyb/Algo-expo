@@ -1,7 +1,7 @@
-import { StyleSheet, Text, View, TouchableOpacity } from 'react-native';
-import StarIcon from "../assets/Star"
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import { StyleSheet, Text, View, TouchableOpacity } from "react-native-svg";
+import StarIcon from "./assets/Star";
 import Cours from './screens/Cours';
 import Corriges from "./screens/Corriges";
 import OneStar from "./screens/OneStar";
